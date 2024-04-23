@@ -4,13 +4,13 @@
 import {
   isCookie,
   createCookieFactory,
-} from "@remix-run/server-runtime/dist/cookies";
+} from "@remix-run/server-runtime/dist/cookies.js";
 import type {
   SessionStorage,
   SessionIdStorageStrategy,
   SessionData,
-} from "@remix-run/server-runtime/dist/sessions";
-import { createSession } from "@remix-run/server-runtime/dist/sessions";
+} from "@remix-run/server-runtime/dist/sessions.js";
+import { createSession } from "@remix-run/server-runtime/dist/sessions.js";
 import { encrypt, decrypt } from "simple-secure-webcrypto";
 
 interface CookieSessionStorageOptions {

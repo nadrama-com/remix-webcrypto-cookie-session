@@ -1,6 +1,6 @@
 {
   "name": "remix-webcrypto-cookie-session",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in replacement for Remix createCookieSessionStorage which encrypts session cookie data using Web Crypto APIs",
   "homepage": "https://github.com/Nadrama-com/emix-webcrypto-cookie-session",
   "repository": {
